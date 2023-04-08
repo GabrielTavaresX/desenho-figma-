@@ -1,0 +1,89 @@
+ *{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+font-family:sans-serif;
+ }
+ 
+ 
+ 
+ #divBusca{
+    background-color:#c5c7c7;
+    border:solid 3px #aaa7a7;
+    border-radius:10px;
+    width:1120px;
+    height:40px;
+   
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:white;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:33px;
+    width:891px;
+   
+  }
+  
+  #divBusca img{
+    float:left;
+   
+  }
+
+  footer{
+    background-color:#c5c7c7;
+    border:solid 3px #aaa7a7;
+    border-radius:10px;
+    width:1120px;
+    height:40px;
+  }
+  header nav{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: right;
+    
+  }
+   
+   header nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 100%;
+    position:absolute;
+ 
+    
+   }
+     header nav ul li{
+padding: 1rem;
+height: 100%;
+display: flex;
+align-items: center;
+
+     }
+ 
+ 
+ 
+ 
+  header nav ul li a{
+
+    text-decoration: none;
+    color: var(--black);
+
+  }
+     header nav ul li:hover{
+       text-decoration: none;
+       color: var(--black);
+     }
+    
+      #redes{
+        position: absolute;
+        left: 20.31%;
+        right: 50.98%;
+        
+       
+
+      }
